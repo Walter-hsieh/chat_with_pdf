@@ -12,7 +12,7 @@ chat_model_Anthropic = ChatAnthropic(
 # file = open('source.txt', 'r', encoding='utf-8')
 # SOURCE = file.read()
 
-pdf_path = 'C:\\Users\\walte\\Desktop\\LangChainApp\\pdf_file\\5.pdf'
+pdf_path = 'path_of_your_pdf'
 loader = PyPDFLoader(file_path=pdf_path)
 pages = loader.load_and_split()
 documents = loader.load()
